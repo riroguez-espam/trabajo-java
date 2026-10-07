@@ -61,7 +61,7 @@ public class Main {
         System.out.println("  Luego de implementarlo, descomenta las siguientes lineas de prueba:");
         System.out.println();
 
-        /*
+        
         // DESCOMENTAR CUANDO IMPLEMENTES EL METODO buscar():
         System.out.println("  1. Buscando el numero 30 (que si existe):");
         boolean encontrado30 = listaEnteros.buscar(30);
@@ -70,8 +70,8 @@ public class Main {
         System.out.println("\n  2. Buscando el numero 99 (que no existe):");
         boolean encontrado99 = listaEnteros.buscar(99);
         System.out.println("     Resultado obtenido: " + encontrado99 + " | Esperado: false");
-        */
-        listaEnteros.buscar(30); // Llamada actual al metodo pendiente
+        
+        listaEnteros.buscar(120); // Llamada actual al metodo pendiente
         System.out.println();
 
         // --------------------------------------------------------------------
